@@ -9,7 +9,7 @@ To share a common undestanding of ambiguous concepts, contributors shall agree u
 - Specification:
 - Validation: confirmation, through objective evidence, that the requirements for a specific indended use or application have been fulfilled. A system is able to accomplish its indended use, goals and objectives (i.e., meet stakeholder requirements) in the inteded operational environment. The righ system was built.
 - Design: Definition of the architecture, system elements, interfaces, and other characteristics of a system or system element.
-- Verification: confirmation, trhough objective evidence, that specified requirements have been fulfilled. 
+- Verification: confirmation, through objective evidence, that specified requirements have been fulfilled. 
 
 
 ## Requirements
