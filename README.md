@@ -16,8 +16,10 @@ To share a common undestanding of ambiguous concepts, contributors shall agree u
 - The solution shall enable systems engineers to detect missing requirements
 - The solution shall enable systems engineers to detect conflicting requirements
 - The solution shall enable systems engineers to verify that the design meets the requirements
-- The solution shall enable systems engineers to....
-- 
+- The solution shall enable systems engineers to trace requirements
+- The solution shall enable systems enginners to ...
+
+
 ## Measures of performance
 
 ## Datasets
