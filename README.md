@@ -5,20 +5,24 @@ This benchmark aims at building confidence in the usefulness of the new methods 
 ## Glossary
 
 To share a common undestanding of ambiguous concepts, contributors shall agree upon the following definitions:
-- Requirement:
-- Specification:
-- Validation: confirmation, through objective evidence, that the requirements for a specific indended use or application have been fulfilled. A system is able to accomplish its indended use, goals and objectives (i.e., meet stakeholder requirements) in the inteded operational environment. The righ system was built.
+- Requirement: 
+- Specification: A set of requirements.
+- Validation: confirmation, through objective evidence, that the requirements for a specific indended use or application have been fulfilled. A system is able to accomplish its indended use, goals and objectives (i.e., meet stakeholder requirements) in the intended operational environment. The righ system was built.
 - Design: Definition of the architecture, system elements, interfaces, and other characteristics of a system or system element.
 - Verification: confirmation, through objective evidence, that specified requirements have been fulfilled. 
 
 
 ## Requirements
-- The solution shall enable systems engineers to detect missing requirements
-- The solution shall enable systems engineers to detect conflicting requirements
-- The solution shall enable systems engineers to verify that the design meets the requirements
-- The solution shall enable systems engineers to trace requirements
-- The solution shall enable systems enginners to ...
 
+- The solution shall enable systems engineers to specify correct requirements.
+- The solution shall enable systems engineers to specify complete requirements.
+- The solution shall enable systems engineers to specify correct specifications.
+- The Solution shall enable systems engineers to specify complete specifications.
+- The solution shall enable systems engineers to demonstrate that the designs meets the specifications.
+- The solution shall enable systems engineers to demonstrate that the implementations meets the specifications.
+- The solution shall enable systems engineers to vertically trace requirements.
+- The solution shall enable systems engineers to horizontally trace requirements.
+- The solution shall enable stakeholders, especially end-users, to experience the intended operational environment and the systems properties (behavioural and tructural) with a high degree of realism
 
 ## Measures of performance
 
@@ -44,4 +48,5 @@ To share a common undestanding of ambiguous concepts, contributors shall agree u
 
 ## Meta-Analysis
 
+## References
 
