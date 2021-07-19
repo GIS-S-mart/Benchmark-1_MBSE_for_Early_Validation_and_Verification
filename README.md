@@ -5,12 +5,11 @@ This benchmark aims at building confidence in the usefulness of the new methods 
 ## Glossary
 
 To share a common undestanding of ambiguous concepts, contributors shall agree upon the following definitions:
-- Requirement: 
+- Requirement: a Statement of an agreeed-to obligation for an object to possess some property within specified constraints under some conditions.
 - Specification: A set of requirements.
 - Validation: confirmation, through objective evidence, that the requirements for a specific indended use or application have been fulfilled. A system is able to accomplish its indended use, goals and objectives (i.e., meet stakeholder requirements) in the intended operational environment. The righ system was built.
-- Design: Definition of the architecture, system elements, interfaces, and other characteristics of a system or system element.
+- Design: Definition of the architecture, system elements, interfaces, and other characteristics of a system.
 - Verification: confirmation, through objective evidence, that specified requirements have been fulfilled. 
-
 
 ## Requirements
 
