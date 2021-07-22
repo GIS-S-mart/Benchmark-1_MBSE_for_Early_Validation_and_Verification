@@ -5,8 +5,11 @@ This benchmark aims at building confidence in the usefulness of the new methods 
 ## Glossary
 
 To share a common undestanding of ambiguous concepts, contributors shall agree upon the following definitions:
-- Requirement: a Statement of an agreeed-to obligation for an object to possess some property within specified constraints under some conditions.
+- Requirement: is the result of a formal transformation of one or more needs or parent requirements into an agreed-to obligation for an object to possess some property within specified constraints under some conditions with acceptable risk.
 - Specification: A set of requirements.
+
+
+
 - Validation: confirmation, through objective evidence, that the requirements for a specific indended use or application have been fulfilled. A system is able to accomplish its indended use, goals and objectives (i.e., meet stakeholder requirements) in the intended operational environment. The righ system was built.
 - Design: Definition of the architecture, system elements, interfaces, and other characteristics of a system.
 - Verification: confirmation, through objective evidence, that specified requirements have been fulfilled. 
@@ -21,7 +24,7 @@ To share a common undestanding of ambiguous concepts, contributors shall agree u
 - The solution shall enable systems engineers to demonstrate that the implementations meets the specifications.
 - The solution shall enable systems engineers to vertically trace requirements.
 - The solution shall enable systems engineers to horizontally trace requirements.
-- The solution shall enable stakeholders, especially end-users, to experience the intended operational environment and the systems properties (behavioural and tructural) with a high degree of realism
+- The solution shall enable stakeholders, especially end-users, to experience the intended operational environment and the systems properties (behavioural and structural) with a high degree of realism
 
 ## Measures of performance
 
@@ -32,7 +35,7 @@ To share a common undestanding of ambiguous concepts, contributors shall agree u
 ## 
 
 |                                                              |                      **Solution 1**                      |            **Solution ...**             |  
-| :----------------------------------------------------------: | :-----------------------------------------------: | :-------------------------------: | 
+| :------------: | :-----------------: | :---------: | 
 | **Req1** *Discrete* *Continuous* *Hybrid* *Multiphysic* |               Basic logic animation               |       Basic logic Animation       |          Not documented           |   Basic animated logic sequence   |    Not documented    |          Not documented           |        Requires extensions        | Discrete synch Discrete asynch Continuous Hybrid Multiphysic | Discrete synchDiscrete asynchContinuousHybrid Multiphysic |  Discrete synchDiscrete asynchContinuousHybrid Multiphysic   |
 |    **Req2** *Top-Down* *Zig-**zagging* *Allow* *reuse*    |                  Not documented                   |         Layered top-down          |    Sequential  No zig-zagging     |     Sequential No zig-zagging     |      Sequential      |          Not documented           |  NoneSequential in some methods   |                          Sequential                          |                      Not documented                       | Top-downZig-zagging (Spec -> Design)Allow reuse at any level |
 | **Operating** **Scenario** *Interactive* *Executable* *Batch* |                  Not documented                   |     Diagram (animated EFFBD)      |          Not documented           |             Wargaming             |   Diagram (static)   |         Diagram (static)          |         Diagram (static)          |                           Textual                            |                     Executable model                      | Interactive control panelExecutable modelList of executable scenarios |
