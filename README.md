@@ -24,7 +24,7 @@ To share a common undestanding of ambiguous concepts, contributors shall agree u
 - The solution shall enable systems engineers to demonstrate that the implementations meets the specifications.
 - The solution shall enable systems engineers to vertically trace requirements.
 - The solution shall enable systems engineers to horizontally trace requirements.
-- The solution shall enable stakeholders, especially end-users, to experience the intended operational environment and the systems properties (behavioural and structural) with a high degree of realism
+- The solution shall enable stakeholders, especially end-users, to experience the systems properties (behavioural and structural) in its intended operational environment with a high degree of realism.
 
 ## Measures of performance
 
@@ -34,7 +34,8 @@ To share a common undestanding of ambiguous concepts, contributors shall agree u
 
 ## Benchmarking
 
-
+- [Solution A]
+- [Solution B]
 
 ## Meta-Analysis
 
