@@ -16,17 +16,33 @@ To share a common undestanding of ambiguous concepts, contributors shall agree u
 
 ## Requirements
 
-- The solution shall enable systems engineers to specify correct requirements.
+Requirement elicitation:
+- Ra1: The solution shall enable systems engineers to specify correct requirements.
 - The solution shall enable systems engineers to specify complete requirements.
 - The solution shall enable systems engineers to specify correct specifications.
 - The Solution shall enable systems engineers to specify complete specifications.
-- The solution shall enable systems engineers to demonstrate that the designs meets the specifications.
+
+Requirement enrichment
+- The solution shall enable systems engineer to identify inconsistent specifications.
+- "compléter exigences avec bon niveau de raffinement"
+- The solution shall enable systems engineer to identify missing requirements.
+
+Requirement verification & validation
+- Rb1: The solution shall enable systems engineers to demonstrate that the designs meets the specifications.
 - The solution shall enable systems engineers to demonstrate that the implementations meets the specifications.
-- The solution shall enable systems engineers to vertically trace requirements.
-- The solution shall enable systems engineers to horizontally trace requirements.
 - The solution shall enable stakeholders, especially end-users, to experience the systems properties (behavioural and structural) in its intended operational environment with a high degree of realism.
 
+Requirement traceability
+- The solution shall enable systems engineers to vertically trace requirements.
+- The solution shall enable systems engineers to horizontally trace requirements.
+
 ## Measures of performance
+
+values in [N/A, Yes, No]
+
+- MoP1a: bool
+- MoP2a: bool
+- MoP overall: ratio of MoP verified
 
 ## Datasets
 
