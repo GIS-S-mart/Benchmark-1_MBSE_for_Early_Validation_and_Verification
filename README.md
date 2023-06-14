@@ -43,13 +43,13 @@ To share a common understanding of ambiguous concepts, contributors shall agree 
 ## Measures of performance
 
 <!-- - MoP1: (boolean) Number of verified specifications. -->
-- MoP1: (integer) Number $n_{new\_req}$ of newly discovered requirements (or additions made to the initial requirements), either refining or further constraining the design. Higher is better.
+- MoP1: (integer) Number $`n_{new\_req}`$ of newly discovered requirements (or additions made to the initial requirements), either refining or further constraining the design. Higher is better.
 
-- MoP2: (float) Final verification rate $\mathcal{V} = \frac{| \mathcal{R}_{valid} |}{| \mathcal{R} |}$, i.e., total number of verified requirement $| \mathcal{R}_{valid} |$ over the total number of requirements $| \mathcal{R} |$. Higher is better.
+- MoP2: (float) Final verification rate $`\mathcal{V} = \frac{| \mathcal{R}_{valid} |}{| \mathcal{R} |}`$, i.e., total number of verified requirement $`| \mathcal{R}_{valid} |`$ over the total number of requirements $`| \mathcal{R} |`$. Higher is better.
 
-- MoP3: (float) Final element-wise verification rate $\mathcal{V}' = \sum_{r \in \mathcal{R}} \frac{\sum_{e \in r} \frac{|e_{valid}|}{|e|}}{| \mathcal{R} |}$, i.e., total number of elements $|e_{valid}|$ for each requirement $r \in \mathcal{R}$ verifying requirement $r$ (given $|e|$ elements concerned by this requirement), over the total number of requirements $|\mathcal{R}|$. Higher is better.
+- MoP3: (float) Final element-wise verification rate $`\mathcal{V}' = \sum_{r \in \mathcal{R}} \frac{\sum_{e \in r} \frac{|e_{valid}|}{|e|}}{| \mathcal{R} |}`$, i.e., total number of elements $`|e_{valid}|`$ for each requirement $`r \in \mathcal{R}`$ verifying requirement $`r`$ (given $`|e|`$ elements concerned by this requirement), over the total number of requirements $`|\mathcal{R}|`$. Higher is better.
 
-- MoP4: (integer) $\mathcal{X} =\lVert \mathbf{x}_{lab} \rVert_1 + \lambda_{\frac{lab}{ind}} \lVert \mathbf{x}_{ind} \rVert_1 + \lambda_0 \lVert \mathbf{x} \rVert_0$, where $\lVert \cdot \rVert_1$ and $\lVert \cdot \rVert_0$ denote the $\ell_1$ and $\ell_0$ norms respectively, and $\mathbf{x}$ is the concatenation of $\mathbf{x}_{lab}$ and $\mathbf{x}_{ind}$ gathering the number of experiments per laboratory and industrial use case (if any laboratory use case is used). The first two terms penalise the total number of experiments, with higher weights on experiments performed on industrial use cases (a 1:5 ratio is used, $\lambda_{\frac{lab}{ind}}=5$). The last term penalises the use of multiple use cases (here, $\lambda_0 = 2$). Lower is better.
+- MoP4: (integer) $`\mathcal{X} =\lVert \mathbf{x}_{lab} \rVert_1 + \lambda_{\frac{lab}{ind}} \lVert \mathbf{x}_{ind} \rVert_1 + \lambda_0 \lVert \mathbf{x} \rVert_0`$, where $`\lVert \cdot \rVert_1`$ and $`\lVert \cdot \rVert_0`$ denote the $`\ell_1`$ and $`\ell_0`$ norms respectively, and $`\mathbf{x}`$ is the concatenation of $`\mathbf{x}_{lab}`$ and $`\mathbf{x}_{ind}`$ gathering the number of experiments per laboratory and industrial use case (if any laboratory use case is used). The first two terms penalise the total number of experiments, with higher weights on experiments performed on industrial use cases (a 1:5 ratio is used, $`\lambda_{\frac{lab}{ind}}=5`$). The last term penalises the use of multiple use cases (here, $`\lambda_0 = 2`$). Lower is better.
 
 <!-- - Overall MoP: (float) ratio of verified MoP. -->
 
@@ -62,7 +62,7 @@ To share a common understanding of ambiguous concepts, contributors shall agree 
 
 - [WONKA case study](wonka_case_study/wonka_case_study.md)
 **GOAL: verify and validate a scientific approach on multiple *industrial systems*, given some *laboratory systems*. The solution shall enable systems engineer to correct, complete and verify specifications as early as possible (before/after experiments on laboratory systems, before/after experiments on industrial systems).**
-Five use cases are considered: 3 laboratory systems (1 coffee machine, 1 robot arm, 1 3D printer) and 2 industrial systems (1 temperature-controlled vehicle testbed denoted $ind1$ and 1 mixing/conching machine from a chocolate factory denoted $ind2$). Additional instrumentation come with all systems.
+Five use cases are considered: 3 laboratory systems (1 coffee machine, 1 robot arm, 1 3D printer) and 2 industrial systems (1 temperature-controlled vehicle testbed denoted $`ind1`$ and 1 mixing/conching machine from a chocolate factory denoted $`ind2`$). Additional instrumentation come with all systems.
 This case study consists of (i) all five cyber-physical systems in their environments with their description (system, purpose and initial requirements), (ii) an ontology tailored to mechatronic systems, (iii) a formal description of all use cases using this ontology.
 [see more details](wonka_case_study/wonka_case_study.md)
 
@@ -94,7 +94,7 @@ Measure of performance:
 
 | Solution | MoP1  |                      MoP2                      |                       MoP3                       |     MoP4      |
 | -------- | :---: | :--------------------------------------------: | :----------------------------------------------: | :-----------: |
-| WONKA    |  $n_{new\_req}=3$  | $\mathcal{V}_{ind1}=50\%$<br />$\mathcal{V}_{ind2}=68\%$ | $\mathcal{V}'_{ind1}=75\%$<br />$\mathcal{V}'_{ind2}=96\%$ | $\mathcal{X}=$ |
+| WONKA    |  $`n_{new\_req}=3`$  | $`\mathcal{V}_{ind1}=50\%`$<br />$`\mathcal{V}_{ind2}=68\%`$ | $`\mathcal{V}'_{ind1}=75\%`$<br />$`\mathcal{V}'_{ind2}=96\%`$ | $`\mathcal{X}=`$ |
 
   <!-- 
   | Solution | MoP1  | MoP2  | MoP3  | MoP4  |

@@ -63,7 +63,7 @@ The mixing and conching machine is responsible for stirring and heating up choco
 </figure>
 
 ---
-#### <u> Scientific approach </u>
+#### <u> Scientific approach (ATV)</u>
 
 The scientific approach consists in a *Blind Source Separation* problem. That is, one seeks the activation sequence of each actuator within a system in an unsupervised fashion, i.e., exclusively from sensor data.
 
