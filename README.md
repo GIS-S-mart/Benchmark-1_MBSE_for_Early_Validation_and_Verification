@@ -49,20 +49,19 @@ To share a common understanding of ambiguous concepts, contributors shall agree 
 
 - MoP3: (float) Final element-wise verification rate $`\mathcal{V}' = \sum_{r \in \mathcal{R}} \frac{\sum_{e \in r} \frac{|e_{valid}|}{|e|}}{| \mathcal{R} |}`$, i.e., total number of elements $`|e_{valid}|`$ for each requirement $`r \in \mathcal{R}`$ verifying requirement $`r`$ (given $`|e|`$ elements concerned by this requirement), over the total number of requirements $`|\mathcal{R}|`$. Higher is better.
 
-- MoP4: (integer) $`\mathcal{X} =\lVert \mathbf{x}_{lab} \rVert_1 + \lambda_{\frac{lab}{ind}} \lVert \mathbf{x}_{ind} \rVert_1 + \lambda_0 \lVert \mathbf{x} \rVert_0`$, where $`\lVert \cdot \rVert_1`$ and $`\lVert \cdot \rVert_0`$ denote the $`\ell_1`$ and $`\ell_0`$ norms respectively, and $`\mathbf{x}`$ is the concatenation of $`\mathbf{x}_{lab}`$ and $`\mathbf{x}_{ind}`$ gathering the number of experiments per laboratory and industrial use case (if any laboratory use case is used). The first two terms penalise the total number of experiments, with higher weights on experiments performed on industrial use cases (a 1:5 ratio is used, $`\lambda_{\frac{lab}{ind}}=5`$). The last term penalises the use of multiple use cases (here, $`\lambda_0 = 2`$). Lower is better.
+- MoP4: (integer) $`\mathcal{X} =\lVert \mathbf{x}_{lab} \rVert_1 + \lambda_{\frac{lab}{ind}} \lVert \mathbf{x}_{ind} \rVert_1 + \lambda_0 \lVert \mathbf{x} \rVert_0`$, where $`\lVert \cdot \rVert_1`$ and $`\lVert \cdot \rVert_0`$ denote the $`\ell_1`$ norm and $`\ell_0`$ pseudo-norm respectively, and $`\mathbf{x}`$ is the concatenation of $`\mathbf{x}_{lab}`$ and $`\mathbf{x}_{ind}`$ gathering the number of experiments per laboratory and industrial use case (if any laboratory use case is used). The first two terms penalise the total number of experiments, with higher weights on experiments performed on industrial use cases (a 1:5 ratio is used, $`\lambda_{\frac{lab}{ind}}=5`$). The last term penalises the use of multiple use cases (here, $`\lambda_0 = 2`$). Lower is better. 
+(e.g., to assess the WONKA methodology, 2 experiments were made on 1 laboratory use case, 1 experiment was performed on each of the 2 industrial use cases, $`\mathcal{X} = 2 + 5 \cdot 2 + 2 \cdot 3`$)
 
 <!-- - Overall MoP: (float) ratio of verified MoP. -->
 
 
-> Note: MoP1 to MoP3 assess the solution's effectiveness (ability to identify missing requirements, verify and validate), whereas MoP4 assesses the solution's sufficiency (ability to verify and validate with as few experiments as possible, i.e., as early as possible).
+> Note: MoP1 to MoP3 assess the solution's effectiveness (ability to identify missing requirements, verify and validate), whereas MoP4 assesses the solution's sufficiency (ability to verify and validate with as few experiments as possible, as early as possible).
 
 ## Datasets
 
-- [Robot arm] <span style="color:red">tbd</span>
-
 - [WONKA case study](wonka_case_study/wonka_case_study.md)
 **GOAL: verify and validate a scientific approach on multiple *industrial systems*, given some *laboratory systems*. The solution shall enable systems engineer to correct, complete and verify specifications as early as possible (before/after experiments on laboratory systems, before/after experiments on industrial systems).**
-Five use cases are considered: 3 laboratory systems (1 coffee machine, 1 robot arm, 1 3D printer) and 2 industrial systems (1 temperature-controlled vehicle testbed denoted $`ind1`$ and 1 mixing/conching machine from a chocolate factory denoted $`ind2`$). Additional instrumentation come with all systems.
+Five use cases are considered: 3 laboratory systems (1 coffee machine, 1 robot arm, 1 3D printer) and 2 industrial systems (1 temperature-controlled vehicle testbed denoted $`ind1`$ and 1 mixing/conching machine from a chocolate factory denoted $`ind2`$). Additional instrumentation come with all systems. The scentific Approach To be Validated (**ATV**), i.e., the system to design, consists in an algorithm retrieving the activation sequences of the actuators present in a use case's machines over a production process. This decomposition is called *Multi-Label Clustering*, a special case of the *Underdetermined Blind Source Separation* inverse problem.
 This case study consists of (i) all five cyber-physical systems in their environments with their description (system, purpose and initial requirements), (ii) an ontology tailored to mechatronic systems, (iii) a formal description of all use cases using this ontology.
 [see more details](wonka_case_study/wonka_case_study.md)
 
@@ -94,7 +93,7 @@ Measure of performance:
 
 | Solution | MoP1  |                      MoP2                      |                       MoP3                       |     MoP4      |
 | -------- | :---: | :--------------------------------------------: | :----------------------------------------------: | :-----------: |
-| WONKA    |  $`n_{new\_req}=3`$  | $`\mathcal{V}_{ind1}=50\%`$<br />$`\mathcal{V}_{ind2}=68\%`$ | $`\mathcal{V}'_{ind1}=75\%`$<br />$`\mathcal{V}'_{ind2}=96\%`$ | $`\mathcal{X}=`$ |
+| WONKA    |  $`n_{new\_req}=3`$  | $`\mathcal{V}_{ind1}=50\%`$<br />$`\mathcal{V}_{ind2}=68\%`$ | $`\mathcal{V}'_{ind1}=75\%`$<br />$`\mathcal{V}'_{ind2}=96\%`$ | $`\mathcal{X} = 18`$ |
 
   <!-- 
   | Solution | MoP1  | MoP2  | MoP3  | MoP4  |
