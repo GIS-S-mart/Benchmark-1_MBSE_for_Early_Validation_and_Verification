@@ -56,7 +56,7 @@ The temperature- and humidity-controlled vehicle testbed is composed of 2 indepe
 In this use case, the only objective is to decompose the temperature signals.
 
 <figure class="image">
-  <img src="fig/VehicleTestbed_TB403_schematics.png" width=800>
+  <img src="fig/vehicletestbed_TB403_schematics.png" width=800>
   <figcaption><b>Figure 4: Temperature- and humidity-controlled chamber of a vehicle testbed.</b></figcaption>
 </figure>
 
