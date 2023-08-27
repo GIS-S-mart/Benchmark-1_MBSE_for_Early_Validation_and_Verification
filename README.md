@@ -59,11 +59,10 @@ To share a common understanding of ambiguous concepts, contributors shall agree 
 
 ## Datasets
 
-- [WONKA case study](wonka_case_study/wonka_case_study.md)
+- [WONKA case study](https://github.com/GIS-S-mart/Benchmark-1_MBSE_for_Early_Verification_and_Validation/blob/main/wonka_case_study/wonka_case_study.md)
 **GOAL: verify and validate a scientific approach on multiple *industrial systems*, given some *laboratory systems*. The solution shall enable systems engineer to correct, complete and verify specifications as early as possible (before/after experiments on laboratory systems, before/after experiments on industrial systems).**
 Five use cases are considered: 3 laboratory systems (1 coffee machine, 1 robot arm, 1 3D printer) and 2 industrial systems (1 temperature-controlled vehicle testbed denoted $`ind1`$ and 1 mixing/conching machine from a chocolate factory denoted $`ind2`$). Additional instrumentation come with all systems. The scentific Approach To be Validated (**ATV**), i.e., the system to design, consists in an algorithm retrieving the activation sequences of the actuators present in a use case's machines over a production process. This decomposition is called *Multi-Label Clustering*, a special case of the *Underdetermined Blind Source Separation* inverse problem.
 This case study consists of (i) all five cyber-physical systems in their environments with their description (system, purpose and initial requirements), (ii) an ontology tailored to mechatronic systems, (iii) a formal description of all use cases using this ontology.
-[see more details](wonka_case_study/wonka_case_study.md)
 
 ## Benchmarking
 
