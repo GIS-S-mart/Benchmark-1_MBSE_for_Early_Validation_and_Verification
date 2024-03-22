@@ -8,9 +8,10 @@ To share a common understanding of ambiguous concepts, contributors shall agree 
 
 - *Requirement*: the result of a formal transformation of one or more needs or parent requirements into an agreed-to obligation for an object to possess some property within specified constraints under some conditions with acceptable risk.
 - *Specification*: a set of requirements.
+- *Specification Validation*: confirmation, through objective evidence, that ech individual requirement and the set of requirements is complete and correct.
 - *Design*: definition of the architecture, system elements, interfaces, and other characteristics of a system.
-- *Verification*: confirmation, through objective evidence, that specified requirements have been fulfilled.
-- *Validation*: confirmation, through objective evidence, that the requirements for a specific intended use or application have been fulfilled. A system is able to accomplish its intended use, goals and objectives (i.e., meet stakeholder requirements) in the intended operational environment. The right system was built.
+- *(Early) Design Verification*: confirmation, through objective evidence, that specified requirements have been fulfilled by the design.
+- *(Early) Design Validation*: confirmation, through objective evidence, that the requirements for a specific intended use or application have been fulfilled. A system is able to accomplish its intended use, goals and objectives (i.e., meet stakeholder requirements) in the intended operational environment. The right system was built.
 
 ## Requirements
 
